@@ -1,0 +1,9 @@
+{
+  "name": "term по id",
+  "expect": "Ровно один документ: man-01",
+  "body": {
+    "size": 5,
+    "_source": ["id", "title", "category"],
+    "query": {"term": {"id": "man-01"}}
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "bool + filter по категории",
+  "expect": "Только category == 'testing', отсортированные по релевантности слову 'тестирование'",
+  "body": {
+    "size": 5,
+    "_source": ["id", "title", "category"],
+    "query": {
+      "bool": {
+        "must": [
+          {"multi_match": {"query": "тестирование", "fields": ["title^2", "description"]}}
+        ],
+        "filter": [
+          {"term": {"category": "testing"}}
+        ]
+      }
+    }
+  }
+}

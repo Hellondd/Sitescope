@@ -1,0 +1,10 @@
+{
+  "name": "range по дате",
+  "expect": "Документы, опубликованные в 2026 году, самые свежие первыми",
+  "body": {
+    "size": 5,
+    "_source": ["id", "title", "published_at"],
+    "query": {"range": {"published_at": {"gte": "2026-01-01", "lte": "2026-12-31"}}},
+    "sort": [{"published_at": "desc"}]
+  }
+}

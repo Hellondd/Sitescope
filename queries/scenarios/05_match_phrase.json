@@ -1,0 +1,9 @@
+{
+  "name": "match_phrase",
+  "expect": "Документ man-09 (фраза 'уровни изоляции' идёт подряд и в этом порядке)",
+  "body": {
+    "size": 5,
+    "_source": ["id", "title", "description"],
+    "query": {"match_phrase": {"description": "уровни изоляции"}}
+  }
+}

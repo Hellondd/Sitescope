@@ -1,0 +1,9 @@
+{
+  "name": "term по category",
+  "expect": "Только документы с category == 'devops' (точное значение keyword-поля)",
+  "body": {
+    "size": 5,
+    "_source": ["id", "title", "category"],
+    "query": {"term": {"category": "devops"}}
+  }
+}

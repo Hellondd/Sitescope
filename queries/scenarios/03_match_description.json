@@ -1,0 +1,9 @@
+{
+  "name": "match по description",
+  "expect": "Сверху описания про индексы и ускорение запросов (man-06..man-08)",
+  "body": {
+    "size": 5,
+    "_source": ["id", "title", "description"],
+    "query": {"match": {"description": "ускорить запросы индексы"}}
+  }
+}

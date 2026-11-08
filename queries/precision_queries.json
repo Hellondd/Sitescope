@@ -1,0 +1,17 @@
+{
+  "comment": "Эталон релевантности определён ВРУЧНУЮ по подготовленным вручную документам man-01..man-28 ДО запуска поиска.",
+  "k": 5,
+  "fields": ["title^2", "description"],
+  "queries": [
+    {"id": "Q1", "text": "Docker контейнеры",
+     "relevant": ["man-01", "man-02", "man-03", "man-04", "man-05"]},
+    {"id": "Q2", "text": "индексы базы данных ускорение запросов",
+     "relevant": ["man-06", "man-07", "man-08", "man-10", "man-21"]},
+    {"id": "Q3", "text": "асинхронный Python asyncio",
+     "relevant": ["man-11", "man-12", "man-14", "man-22", "man-23"]},
+    {"id": "Q4", "text": "аутентификация JWT токены",
+     "relevant": ["man-15", "man-17", "man-24", "man-25", "man-26"]},
+    {"id": "Q5", "text": "тестирование pytest",
+     "relevant": ["man-18", "man-19", "man-20", "man-27", "man-28"]}
+  ]
+}

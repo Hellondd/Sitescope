@@ -1,0 +1,9 @@
+{
+  "name": "match по title",
+  "expect": "Сверху документы про Docker и контейнеры (man-01..man-05), ниже документы только с одним из слов",
+  "body": {
+    "size": 5,
+    "_source": ["id", "title", "category"],
+    "query": {"match": {"title": "Docker контейнеры"}}
+  }
+}
