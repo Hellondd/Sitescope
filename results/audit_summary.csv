@@ -1,0 +1,5 @@
+site,mode,runs,performance_mean,performance_spread,accessibility_mean,accessibility_spread,best_practices_mean,best_practices_spread,seo_mean,seo_spread,lcp_s_mean,lcp_s_spread,cls_mean,cls_spread,tbt_ms_mean,tbt_ms_spread
+DNS,mobile,2,39.5,5.0,84.0,0.0,88.0,0.0,83.0,0.0,14.35,1.7,0.07,0.027,705.0,290.0
+DNS,desktop,2,63.0,12.0,72.0,0.0,85.0,0.0,83.0,0.0,1.75,0.1,0.056,0.002,810.0,700.0
+Citilink,mobile,2,44.5,3.0,68.0,0.0,54.0,0.0,85.0,0.0,5.45,0.3,0.0,0.0,1615.0,1030.0
+Citilink,desktop,2,57.5,1.0,71.0,0.0,54.0,0.0,85.0,0.0,1.35,0.1,0.0,0.0,2285.0,930.0
