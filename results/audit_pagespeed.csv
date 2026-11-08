@@ -1,0 +1,9 @@
+site,url,mode,run,date,performance,accessibility,best_practices,seo,lcp_s,cls,tbt_ms
+DNS,https://www.dns-shop.ru/,mobile,1,2026-11-08,37,84,88,83,13.5,0.056,850
+DNS,https://www.dns-shop.ru/,mobile,2,2026-11-08,42,84,88,83,15.2,0.083,560
+DNS,https://www.dns-shop.ru/,desktop,1,2026-11-08,57,72,85,83,1.7,0.055,1160
+DNS,https://www.dns-shop.ru/,desktop,2,2026-11-08,69,72,85,83,1.8,0.057,460
+Citilink,https://www.citilink.ru/,mobile,1,2026-11-08,46,68,54,85,5.6,0,1100
+Citilink,https://www.citilink.ru/,mobile,2,2026-11-08,43,68,54,85,5.3,0,2130
+Citilink,https://www.citilink.ru/,desktop,1,2026-11-08,57,71,54,85,1.4,0,2750
+Citilink,https://www.citilink.ru/,desktop,2,2026-11-08,58,71,54,85,1.3,0,1820
