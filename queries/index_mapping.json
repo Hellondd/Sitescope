@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0
+  },
+  "mappings": {
+    "properties": {
+      "id":           {"type": "keyword"},
+      "title":        {"type": "text", "analyzer": "russian"},
+      "description":  {"type": "text", "analyzer": "russian"},
+      "category":     {"type": "keyword"},
+      "tags":         {"type": "keyword"},
+      "published_at": {"type": "date"}
+    }
+  }
+}

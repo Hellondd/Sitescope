@@ -1,0 +1,17 @@
+# Локальный одновузловой Elasticsearch для учебного проекта.
+# ВНИМАНИЕ: безопасность (xpack.security) отключена ТОЛЬКО для локальной работы,
+# порт привязан к 127.0.0.1 и недоступен из сети. Не использовать в интернете.
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.0
+    container_name: es-sitescope
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports:
+      - "127.0.0.1:9200:9200"
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+volumes:
+  esdata:
